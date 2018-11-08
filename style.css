@@ -1,0 +1,25 @@
+.btn {
+    margin: .5%;
+}
+
+.gif-rating {
+    float: left;
+    /* max-width: 50%; */
+    margin: .5%;
+}
+
+.btn-orange{
+    background-color: rgb(255, 136, 0);
+    color: white;
+}
+
+.btn-purple {
+    background-color: purple;
+    color: white;
+}
+
+.bg-dark{
+    padding: 20px;
+    border-radius: .25rem;
+
+}

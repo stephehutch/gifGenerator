@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Gif Generator</title>
+</head>
+
+<body>
+    <div class="container bg-light text-dark">
+
+        <div class="row">
+            <div class="col-12">
+                <h1 class="bg-dark text-white">Reaction Gif Generator</h1>
+                <div id="buttons-view">
+                    <!-- Rendered Buttons will get Dumped Here  -->
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <!-- gifs will Get Dumped Here -->
+            <div id="gifs-appear-here" class="col-8">
+            </div>
+
+
+            <!-- user input for new gif type -->
+            <div class="col-4">
+                <form id="gif-form">
+                    <div class="form-group">
+                        <label for="gif-input"></label>
+                        <input class="form-control" type="text" id="gif-input">
+                        <br>
+                        <!-- Button triggers new gif button to be added -->
+                        <input class="btn" id="add-gif" type="submit" value="Add a Reaction">
+                    </div>
+                </form>
+            </div>
+
+
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script type="text/javascript" src="logic.js"></script>
+</body>
+
+</html>
